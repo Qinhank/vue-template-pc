@@ -9,12 +9,12 @@ const path = require('path')
 const swaggerServerPort = 8091
 
 module.exports = {
-  title: '必派脚手架之pc端',
+  title: 'HANKQIN',
   ename: 'template-pc',
   port: 3481,
   site: 'pc.bpal.work',
   cdn: 'http://bpcdn.hankqin.com',
-  useCDN: true, // 是否对vue、vant使用cdn
+  useCDN: false, // 是否对vue、vant使用cdn
   baseURL: process.env.NODE_ENV === 'production' ? '/api/official' : '/api/v1',
   token: 'authorization',
   isAutomaticSwitching2Mock: process.env.NODE_ENV !== 'production', // 当后端接口无效时是否自动切换到mock接口
