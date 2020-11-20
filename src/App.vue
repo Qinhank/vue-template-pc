@@ -25,7 +25,7 @@
 <template>
   <div id="app">
     <div class="mainbody">
-      <!-- <menus v-if="$route.path!=='/login'" /> -->
+      <menus v-if="$route.path!=='/login'" />
       <div class="container">
         <div class="container-scroll">
           <router-view />
